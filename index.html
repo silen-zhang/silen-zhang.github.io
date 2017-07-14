@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="css.css">
+	<script>
+	(function (doc, win) {
+	 var docEl = doc.documentElement,
+	   resizeEvt = 'orientationchange' in window ? 'orientationchange' : 'resize',
+	   recalc = function () {
+		   var clientWidth = docEl.clientWidth;
+		   if (!clientWidth) return;
+		   if(clientWidth >=750){
+			   clientWidth = 750;
+		   }
+		   docEl.style.fontSize = 20 * (clientWidth / 375) + 'px';
+	   };
+	if (!doc.addEventListener) return;
+	win.addEventListener(resizeEvt, recalc, false);
+	doc.addEventListener('DOMContentLoaded', recalc, false);
+	})(document, window);
+	</script>
+	<title></title>
+</head>
+<body>
+	<div class="title">
+		<img class="title-img" src="images/icon-2.png">
+		<p class="title-p">学院路至茶山校区</p>
+	</div>
+	<div class="content">
+		<img class="content-img" src="images/icon-3.png">
+		<p class="content-time">7:05、7:10</p>
+		<P class="content-content">
+			经时代广场（招呼站）→温迪路（招呼站）→南浦八区→南浦九区→河庄（招呼站）→茶山校区
+		</P>
+	</div>
+</body>
+</html>
