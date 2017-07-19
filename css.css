@@ -115,7 +115,7 @@ body{
 }
 .foot{
 	width: 100%;
-	position:fixed;
+	position: absolute;
 	bottom: 0;
 }
 .foot img{
