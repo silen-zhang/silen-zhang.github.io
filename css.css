@@ -1,8 +1,57 @@
+*{
+	margin: 0;
+	padding: 0;
+}
 body{
 	background-color: #f5f5f5;
 	font-size: 20px;
-	margin: 0;
-	padding: 0;
+}
+.menus{
+	width: 90%;
+	height: 278px;
+	margin: 13px 5% 0px;
+}
+.menu{
+	width: 45%;
+	height: 104px;
+	margin: 2.5%;
+	background-size: 100% 100%;
+	float: left;
+}
+.menu-img{
+	height: 39px;
+	width: 30px;
+	margin: 20px auto 0;
+}
+.menu-img img{
+	width: 100%;
+}
+.menu-p{
+	width: 100%;
+	font-size: 85%;
+	color: #FFFFFF;
+	text-align: center;
+}
+#menu1{
+	background-image: url("images/BG1.png");
+}
+#menu2{
+	background-image: url("images/BG2.png");
+}
+#menu3{
+	background-image: url("images/BG3.png");
+}
+#menu4{
+	background-image: url("images/BG4.png");
+}
+.explain{
+	float: none;
+	width: 85%;
+	font-size: 13px;
+	margin: auto;
+}
+.explain h3{
+	font-weight: bold;
 }
 .title{
 	background: #FFFFFF;
@@ -17,7 +66,7 @@ body{
 	height: 25px;
 	width: 25px;
 	margin-left: 5%;
-	padding-top: 0.75rem;
+	padding-top: 12px;
 }
 .title-img img{
 	width: 100%;
@@ -36,6 +85,7 @@ body{
 	width: 95%;
 	background: #FFFFFF;
 	border: 1px solid #DCDCDC;
+	border-top: 0px;
 	margin: 0 auto;
 	position: relative;
 }
@@ -44,7 +94,7 @@ body{
 	height: 25px;
 	width: 25px;
 	margin-left: 5%;
-	padding-top: 0.75rem;
+	padding-top: 12.5px;
 }
 .content-img img{
 	width: 100%;
@@ -59,5 +109,5 @@ body{
 	margin: 0;
 	font-size: 70%;
 	color: #505050;
-	margin: -9px 1rem 0.8rem 1rem;
+	margin: -9px 5% 16px 5%;
 }
